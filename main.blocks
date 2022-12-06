@@ -1,0 +1,61 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_pin_event" id="7YIDBzM3%/rsX?REEMe8" x="743" y="-62"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="synth_set_volume" id="_TS[lptMIRQpZCwRxh[:"><value name="volume"><shadow type="math_number_minmax"><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">127</field></shadow><block type="math_arithmetic" id="@z%D][W;!~D{p=_Y5p--"><field name="OP">ADD</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="synth_get_volume" id="3|yoTY2~::5:}gc!kkqq"></block></value><value name="B"><shadow type="math_number" id="e7KXO-UiJe0xFZPT*mQT"><field name="NUM">50</field></shadow></value></block></value><next><block type="controls_if" id="IkkiDH).eA|hMslZ|efO"><mutation elseif="3" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="]d~?Hw}Hy[[2OKy1V*1R"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="synth_get_volume" id="kAfT.18o.?0@H8LKQ=?-"></block></value><value name="B"><shadow type="math_number" id="y{-B.iO*%ZA;0tAkggSD"><field name="NUM">200</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="}erP7s`:hW0Q^DU0kTj6"><field name="LEDS">`
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="fINNALfe#SSzaF=Y9uSK"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="synth_get_volume" id="g:@6~JhivqP^Ck:vV|vp"></block></value><value name="B"><shadow type="math_number" id="7u5o5(MGjN]@Jd:4=!wk"><field name="NUM">150</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id=";,Q9OP}*eYGT_SRE#A*w"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="fI;x%oR}4E3]*Hq3N)v}"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="synth_get_volume" id="[}j79S?*V8)bepYy}=7c"></block></value><value name="B"><shadow type="math_number" id="[VRV14RPO@YX=*]O51Dq"><field name="NUM">100</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="5TivR,e7KV3QCUZ{wge="><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field></block></statement><value name="IF3"><block type="logic_compare" id="2+9Zo|*ZbK(gWvot%F#$"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="synth_get_volume" id="PbF6D=axNdA4phc)A@$z"></block></value><value name="B"><shadow type="math_number" id="b^YfAArFRgKK@*D|6nBl"><field name="NUM">50</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id="q*]j*mj3g/pBJsv(|F[:"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="thlZrl~Jy996%mn25~Sp"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # # # .
+        `</field></block></statement></block></next></block></statement></block><block type="device_pin_event" id="mp$-H~bUy}_Q,.!dwxn/" x="327" y="-37"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="synth_set_volume" id="!+hJv2i@agd%cT;JY?e^"><value name="volume"><shadow type="math_number_minmax"><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">127</field></shadow><block type="math_arithmetic" id="dEnuKk.d-i{=ezjuC*EF"><field name="OP">MINUS</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="synth_get_volume" id="I3%b]OpN:KYtT_}*Q3#w"></block></value><value name="B"><shadow type="math_number" id="}yGYTZ3/TcI5XXa/j0=4"><field name="NUM">50</field></shadow></value></block></value><next><block type="controls_if" id="s]KdvKQKjiczc^H,S!g("><mutation elseif="3" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="N6YB`x!HBz//ki*Y,8tR"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="synth_get_volume" id="Z0i)BnDh*^~{Sh=1]3g["></block></value><value name="B"><shadow type="math_number" id="vpz@$BzQ;}tc1IgPM{k["><field name="NUM">200</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="g)r8hJQv1(*YzL/cF@nK"><field name="LEDS">`
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="oM}g8rc0t1v{:P}rF]Ur"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="synth_get_volume" id="XX4Y5{9{tXhQryY((R.B"></block></value><value name="B"><shadow type="math_number" id="FSvnF)jDTJ1~q-4[eyey"><field name="NUM">150</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="L7tATF=P/zb5PYEdb}M:"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="qF|jXQ#Pp)Ky34Hae/5/"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="synth_get_volume" id="z-8aNeQim?QmjBGuPM2s"></block></value><value name="B"><shadow type="math_number" id="Sv_Cm((#v,{:zsInk8/J"><field name="NUM">100</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="y^yHu*9!$KbisB7M/z(s"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # .
+        `</field></block></statement><value name="IF3"><block type="logic_compare" id="BPqo|)]i@wsiYIlNw5GN"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="synth_get_volume" id="]V#4+:IK-ZQO}C6dFDC."></block></value><value name="B"><shadow type="math_number" id="T(6ExB)$nXg,!b[(v=V0"><field name="NUM">50</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id="V/GJ5YmBX0!7Cf@oXFwH"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="Tnm[bw]Y0O_2VH}:Fq9F"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # # # .
+        `</field></block></statement></block></next></block></statement></block><block type="pxt-on-start" id="J,IWc]fkz8^%yiTGqW{s" x="0" y="0"><statement name="HANDLER"><block type="synth_set_volume" id="`wt1ty.@VOE;Sx46vZ,W"><value name="volume"><shadow type="math_number_minmax" id="a%WHBs}Nb,4Bxlo`IeHK"><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">100</field></shadow></value><next><block type="basic_show_icon" id="e1H:c!+{fQ48hhN9hAv{"><field name="i">IconNames.Heart</field><next><block type="device_touch_set_type" id="_Ok^m;kVpt7NnI#~[k6C"><field name="mode">TouchTarget.P1</field><field name="name">TouchTargetMode.Capacitive</field><next><block type="device_touch_set_type" id="346;-J?4XwJ`F+w6J7lp"><field name="mode">TouchTarget.P2</field><field name="name">TouchTargetMode.Capacitive</field></block></next></block></next></block></next></block></statement></block></xml>
